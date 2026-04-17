@@ -2,14 +2,14 @@
 
 An automated timetable generator designed to help students using the Fully Flexible Credit System (FFCS) effortlessly create clash-free academic schedules. Instead of manually verifying slots and combinations, provide this tool with course options, and it will execute a backtracking algorithm to find a valid arrangement.
 
-## ✨ Features
+### Features
 
 - **Course Setup Interface**: Add multiple options for your courses, specifying the course name, faculty, and slot combinations (e.g., theory and lab slots like `A1+TAA1` or `L1+L2`).
 - **Automated Scheduling**: A powerful backend engine checks for slot clashes and automatically orchestrates a complete, clash-free timetable.
 - **Backtracking Visualizer**: Gain an interactive, real-time look into the backtracking algorithm. See exactly which slots are selected, rejected for clashes, or marked invalid as the system evaluates potential schedules.
 - **Modern UI**: An intuitive, visually pleasing, responsive interface built with Tailwind CSS.
 
-## 🛠️ Built With
+### Built With
 
 ### Frontend Setup
 - **React 19**
@@ -24,7 +24,7 @@ An automated timetable generator designed to help students using the Fully Flexi
 - **Flask-CORS**
 - **Pytest** (Automated Testing)
 
-## 🚀 How to Run It Locally
+### How to Run It Locally
 
 To run this application, you will need to start both the Python backend and the React frontend.
 
@@ -61,7 +61,7 @@ To run this application, you will need to start both the Python backend and the 
    ```
 4. Open the local URL provided by Vite (usually `http://localhost:5173`) in your browser to access the FFCS Timetable Application!
 
-## 🧪 Running Tests
+### Running Tests
 
 To run the unified backend test suite ensuring slot-verification and backtracking reliability:
 ```bash
