@@ -8,7 +8,7 @@ export const SLOT_TIMING = {
 };
 
 export const DAYS  = ["MON","TUE","WED","THU","FRI","SAT"];
-export const TIMES = ["08:00","09:00","10:00","11:00","12:00","13:00","14:00","15:00"];
+export const TIMES = Array.from(new Set(Object.values(SLOT_TIMING).flat().map(t => t[1]))).sort();
 export const THEORY_SLOTS = Object.keys(SLOT_TIMING).filter(s=>!s.startsWith("L"));
 const rawLabs = Object.keys(SLOT_TIMING).filter(s=> s.startsWith("L")).sort((a, b) => parseInt(a.slice(1)) - parseInt(b.slice(1)));
 export const LAB_SLOTS = [];
