@@ -1,0 +1,9 @@
+{
+  "name": "ffcs-timetable-generator",
+  "version": "1.0.0",
+  "description": "Automated timetable generator for FFCS",
+  "scripts": {
+    "start": "./start.sh",
+    "dev": "./start.sh"
+  }
+}
